@@ -1,12 +1,10 @@
-  <head> 
     {% extends "base.html" %}
     {% block title %}
       {{post.location}}. {{post.date}}
     {% endblock title %}
-  </head>
-  <body>	   
+
     {% block content%}
-    <main>
+
       <div class="container py-5">
         <article>
           <ul>
@@ -25,7 +23,5 @@
           </p>          
         </article>                
       </div>
-    </main>
     {%endblock content%}
 
-  </body>

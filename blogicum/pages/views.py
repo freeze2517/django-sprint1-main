@@ -1,7 +1,5 @@
 from django.shortcuts import render
 
-# Def for App pages
-
 
 def about(request):
     return render(request, 'pages/about.html')
